@@ -75,6 +75,7 @@
       Validator({
         form: "#form-1", // Xác định form cần validate
         errorSelector: ".form-message",
+        formGroupSelector: ".form-group",
         rules: [
           Validator.isRequired("#fullname"),
           Validator.isEmail("#email"),
